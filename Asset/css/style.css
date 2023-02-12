@@ -1,0 +1,66 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  line-height: 1;
+  background-color: black;
+}
+
+textarea {
+  background: transparent;
+  border: 3px  black solid;
+  color: black;
+  border-radius: 1px solid black;
+  padding: 15px;
+}
+
+.header {
+  text-align: center;
+  background-color: darkblue;
+  color: white;
+  border-radius: 1px;
+  border-bottom: 25px solid black;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid black;
+}
+
+.hour {
+  background-color: darkcyan;
+  color: #000000;
+  border: 3px solid #000000;
+}
+
+.past {
+  background-color: darkgray;
+}
+
+.present {
+  background-color: darkred;
+}
+
+.future {
+  background-color: darkgreen;
+}
+
+.saveBtn {
+  border: 4px solid black;
+  background-color: darkcyan;
+  color: black;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 1s ease-in-out;
+}
