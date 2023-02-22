@@ -57,7 +57,7 @@ textarea {
 .saveBtn {
   border: 4px solid black;
   background-color: darkcyan;
-  color: black;
+  color: bold thick black;
 }
 
 .saveBtn i:hover {
